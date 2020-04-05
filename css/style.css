@@ -41,6 +41,11 @@
     background-clip: text;
 }
 
+.navbar-brand > img{
+    max-width: 50%;
+    height: auto;
+}
+
 /* end navigation*/
 
 /* Banner Area */
