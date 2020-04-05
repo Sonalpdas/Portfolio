@@ -5,36 +5,63 @@
 /* import css _variables*/
 @import url(./partials/_variables.css);
 
+/* import css -global */
+@import url(./partials/_global.css);
+
 /* start navigation*/
 
 .header_area .main-menu .navbar .navbar-brand{
 
-    padding: 0 2rem 0 5rem;
+    padding: 0 2rem 0 5rem;    
 }
 
 .header_area .main-menu .navbar{
-    padding: 1rem 25rem;
+    padding: 0rem 25rem;
+    background-color: black;
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/2px var(--roboto);    
+    font: bold 500 15px/2px var(--roboto);    
     text-transform: uppercase;
     padding: 1.7rem;
     color: var(--title-color);
 }
 
 .header_area .main-menu .navbar-nav .active a{
-    background: var(--gradient-color);
+    background: whitesmoke;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .header_area .main-menu .navbar-nav a:hover{
-    background: var(--gradient-color);
+    background: #666666;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 /* end navigation*/
+
+/* Banner Area */
+
+    .row {
+        text-align: center;
+    }
+    .site-main .site-banner{
+        background: url(../img/banner/banner-main.png) no-repeat 70% 70%;
+    }
+    
+   .site-main .site-banner .site-title h1{
+        font-size: 3rem;
+    }
+
+    .site-main .site-banner .site-title h4{
+        font-size: 1rem;
+    }
+    
+    .site-main .site-banner .banner-image > img{
+        padding: 3rem 3rem;
+    }
+
+/* End Banner Area */

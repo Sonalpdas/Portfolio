@@ -1,0 +1,19 @@
+#spin {
+    color:black;
+  }
+  #spin:after {
+    content:"";
+    animation: spin 15s linear infinite;
+  }
+  @keyframes spin {
+    0% { content:"SharePoint Applications!"; }
+    10% { content:"Web Applications!"; }
+    20% { content:"Android mobile app!"; }
+    30% { content:"SharePoint Applications!"; }
+    40% { content:"Web Applications!"; }
+    50% { content: "Android mobile app!"; }
+    60% { content: "SharePoint Applications!"; }
+    70% { content: "Web Applications!"; }
+    80% { content: "Android mobile app!"; }
+    90% { content: "SharePoint Applications!"; }
+  }
